@@ -16,7 +16,7 @@ class Person{
     
     }
     printAll(){
-        return `${this.weigth}${"-"}${this.heigth}${"-"}${this.yearOfBirth}` 
+        return  `weigth - ${this.weigth},${"\n"}heigth  : ${this.heigth},${"\n"}yearOfBirth - ${this.yearOfBirth},${"\n"}hobbies : ${this.hobbies}`
     }
     printHobbies(){
         return this.hobbies
