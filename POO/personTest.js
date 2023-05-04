@@ -1,25 +1,3 @@
-class Contacts{
-    constructor(){
-        this.arrayPerson  = this.arrPersonObj
-    }
-
-    arrPersonObj([Carlos]){
-        return [Carlos] 
-    };
-
-    printPerson(){
-        return console.log(Carlos)
-    }
-}
-
-
-
-
-
-
-
-
-// console.log("======================================")
 let myPerson = require ("/.Person")
 
 let Carlos = new myPerson.Person (90, 1.70, 1992, ["correr", "beber"])
