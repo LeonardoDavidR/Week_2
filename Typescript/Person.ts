@@ -1,9 +1,16 @@
 export class Person {
-    constructor(public name : string , public age : number , 
-        private address : string){
-            this.address = address 
-            this.name = name 
-            this.age = age
+
+        public name : string
+        public age : number
+        private address : string
+
+    
+
+    constructor(name: string , age : number , address : string){
+        this.name = name;
+        this.age = age ;
+        this.address = address;
+          
         }
         public printName(){
             return this.name

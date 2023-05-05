@@ -6,9 +6,6 @@ var Person = /** @class */ (function () {
         this.name = name;
         this.age = age;
         this.address = address;
-        this.address = address;
-        this.name = name;
-        this.age = age;
     }
     Person.prototype.printName = function () {
         return this.name;
