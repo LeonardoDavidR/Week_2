@@ -1,6 +1,6 @@
 class Contacts{
     constructor(){
-            this.arrPerson = [new myPer.Person()] 
+            this.arrPerson = [] 
         // this.heigth = new myPer.Person().heigth;
         // this.weigth = new Person().weigth;
     }

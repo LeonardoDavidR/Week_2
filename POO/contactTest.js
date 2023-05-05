@@ -9,5 +9,7 @@ let gabriel = new myPersona.Person(115, 1.90,2001, ["beber" , "biologia"]);
 let jose = new myPersona.Person(64,1.71, 1998, ["Videojuegos", "Musica"]);
 let josue = new myPersona.Person(104, 1.75, 1995, ["Magics", "Videojuegos"]);
 
+clubDeGolf.arrPerson =[willy, gabriel, jose, josue]
+
 // console.log(josue.calIMC())
-console.log(clubDeGolf)
+console.log(clubDeGolf.arrPerson);
