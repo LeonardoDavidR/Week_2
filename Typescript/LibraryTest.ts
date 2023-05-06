@@ -9,5 +9,10 @@ let newBook : Book = new Book ("Introduccion a Javascript" , 233 , "2344433-BC23
 let newBook1 : Book = new Book ("Gracias", 199 , "81234713k12313", "Jose", "Altaluz")
 let library : Library = new Library([newBook, newRBook, newBook1], "calle Santo Angel" , "Codenotch" );
 
-// console.log(library)
+console.log(library)
+console.log(library.getAddress())
+console.log(library.getNumberOfBooks(3));
+console.log(library.getManager())
+console.log(library.setAddress("calle patata 23"))
+console.log(library.setManager("Cahlitos"))
 console.log(library.toString())
