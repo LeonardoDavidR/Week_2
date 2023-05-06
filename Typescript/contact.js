@@ -17,4 +17,3 @@ var alba = new Person_1.Person("Alba", 27, "Calle casa de campo");
 var teressa = new Person_1.Person("Teresa", 26, "calle lindo perrito");
 var pandilla = new Contacts();
 pandilla.people = [carlos, alba, teressa];
-console.log(pandilla.people)

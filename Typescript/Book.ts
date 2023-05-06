@@ -28,23 +28,26 @@ export class Book{
     public getEditorial() : string {
         return this.editorial;
     }
-    public setTitle() :void{
-        this.title = "" 
+    public setTitle(newTitle : string) {
+        return this.title = newTitle;
     } 
-    public setNPages() :void{
-        this.nPages;
+    public setNPages(newNPages : number) {
+        return this.nPages = newNPages;
     }
-    public setISBN():void{
-        this.isbn;
+    public setISBN(newISBN : string){
+        return  this.isbn = newISBN;
     }
-    public setAuthor():void {
-        this.author;
+    public setAuthor(newAuthor : string){
+        return this.author = newAuthor;
     }
-    public setEditorial() : void {
-        this.editorial;
+    public setEditorial(newEditorial : string) {
+        return this.editorial = newEditorial;
     }
     public printAll(){
-        return `title : ${this.title},${"/n"} Number of pages : ${this.nPages},
-        ${"/n"}ISBN : ${this.isbn},${"/n"}Author : ${this.author},${"/n"}Editorial : ${this.editorial} `
+        return `title : ${this.title},${"\n"} Number of pages : ${this.nPages},
+        ${"\n"}ISBN : ${this.isbn},${"\n"}Author : ${this.author},${"\n"}Editorial : ${this.editorial} `
     }
 }
+
+let metro : Book = new Book("Metro 2033" , 400 , "978-0-575-08625-8" ,
+ "Dmitry Glukhovsky" , "Eksmo");

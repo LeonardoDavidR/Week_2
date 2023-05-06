@@ -14,7 +14,7 @@ var Person = /** @class */ (function () {
         return currentYear - this.age;
     };
     Person.prototype.setAddress = function (address) {
-        return this.address;
+        return this.address = address;
     };
     Person.prototype.getAddres = function () {
         return this.address;

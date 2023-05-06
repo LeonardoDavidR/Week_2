@@ -19,7 +19,7 @@ export class Person {
             return currentYear - this.age
         }
         public setAddress(address : string){
-            return this.address;
+            return this.address = address;
         }
         public getAddres() : string{
             return this.address;
