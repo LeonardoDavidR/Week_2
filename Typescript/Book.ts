@@ -44,10 +44,7 @@ export class Book{
         return this.editorial = newEditorial;
     }
     public printAll(){
-        return `title : ${this.title},${"\n"} Number of pages : ${this.nPages},
-        ${"\n"}ISBN : ${this.isbn},${"\n"}Author : ${this.author},${"\n"}Editorial : ${this.editorial} `
+        return `title : ${this.title},${"\n"} Number of pages : ${this.nPages},${"\n"}ISBN : ${this.isbn},${"\n"}Author : ${this.author},${"\n"}Editorial : ${this.editorial}${"\n"}`
     }
 }
 
-let metro : Book = new Book("Metro 2033" , 400 , "978-0-575-08625-8" ,
- "Dmitry Glukhovsky" , "Eksmo");

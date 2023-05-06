@@ -12,7 +12,7 @@ export class Person {
         this.address = address;
           
         }
-        public printName(){
+        public printName() : string{
             return this.name
         }
         public yearOfBirth(currentYear : number){

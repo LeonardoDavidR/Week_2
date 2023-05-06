@@ -4,7 +4,8 @@ export class Library {
     private books : Array<any>;
     private address : string;
     private manager : string;
-
+   
+    
     constructor(books : Array<any> , address : string , manager : string){
         this.books = books
         this.address = address
@@ -25,21 +26,29 @@ export class Library {
         return this.address = newManager
     }
     public toString() : string{
-        return `Book : ${this.books},${"\n"}Manager : ${this.manager} `
+        let i : number = 0
+        let x : string = ""
+        for(i = 0; i < this.books.length; i++){
+            x = x+"Book"+i + ": \n" + this.books[i].printAll()
+        }
+        return x 
     }
     public getNumberOfBooks(books : number){
-        return this.books;
+        return this.books.length;
     }
-    public findByAuthor(author : string): Book[]{
-        return author = this.books
+    public findByAuthor(author : string) : Book[]{
+      let i : number = 0 
+      let authorFil : Book[] = [];
+      for(i = 0 ; i < this.books.length ;  i++){
+        if(this.books[i].getAuthor() == author){
+            authorFil.push(this.books[i])
+        }
+      }
+      return authorFil
     }
 
 }
 
-let newRBook : Book = new Book ("El silencio de los corderos" , 300, "12343245-JK283143", "Jose", 
-"Panini");
-let newBook : Book = new Book ("Introduccion a Javascript" , 233 , "2344433-BC23333" , 
-"Joseph Smith", "Now Editions.......”")
-let library : Library = new Library([], "calle Santo Angel" , "Codenotch" );
+
 
 
