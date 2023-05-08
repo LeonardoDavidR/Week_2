@@ -28,19 +28,19 @@ export class Book{
     public getEditorial() : string {
         return this.editorial;
     }
-    public setTitle(newTitle : string) {
+    public setTitle(newTitle : string) : void {
          this.title = newTitle;
     } 
-    public setNPages(newNPages : number) {
+    public setNPages(newNPages : number) : void {
          this.nPages = newNPages;
     }
-    public setISBN(newISBN : string){
+    public setISBN(newISBN : string) : void{
           this.isbn = newISBN;
     }
-    public setAuthor(newAuthor : string){
+    public setAuthor(newAuthor : string) : void{
          this.author = newAuthor;
     }
-    public setEditorial(newEditorial : string) {
+    public setEditorial(newEditorial : string) : void {
          this.editorial = newEditorial;
     }
     public printAll(){

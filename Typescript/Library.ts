@@ -19,10 +19,10 @@ export class Library {
     public getManager() : string{
         return this.manager
     }
-    public setAddress(newAddress : string){
+    public setAddress(newAddress : string) : void{
          this.address = newAddress;
     }
-    public setManager(newManager : string){
+    public setManager(newManager : string) : void{
          this.address = newManager
     }
     public toString() : string{

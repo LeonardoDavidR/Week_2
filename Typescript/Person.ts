@@ -18,8 +18,8 @@ export class Person {
         public yearOfBirth(currentYear : number){
             return currentYear - this.age
         }
-        public setAddress(address : string){
-             this.address = address;
+        public setAddress(newAddress : string) : void{
+             this.address = newAddress;
         }
         public getAddres() : string{
             return this.address;
