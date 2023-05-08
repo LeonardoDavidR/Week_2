@@ -1,7 +1,7 @@
 import { Person } from "./Person";
 
 export class Contacts{
-    public people : Array<any>;
+    public people : Person[];
 
     constructor (){
             this.people = []
