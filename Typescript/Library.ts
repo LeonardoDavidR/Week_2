@@ -1,12 +1,12 @@
 import { Book } from "./Book";
 
 export class Library {
-    private books : Array<any>;
+    private books : Array<Book>;
     private address : string;
     private manager : string;
    
     
-    constructor(books : Array<any> , address : string , manager : string){
+    constructor(books : Array<Book> , address : string , manager : string){
         this.books = books
         this.address = address
         this.manager = manager
@@ -33,7 +33,7 @@ export class Library {
         }
         return x 
     }
-    public getNumberOfBooks(books : number){
+    public getNumberOfBooks(): number{
         return this.books.length;
     }
     public findByAuthor(author : string) : Book[]{
