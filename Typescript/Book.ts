@@ -29,22 +29,22 @@ export class Book{
         return this.editorial;
     }
     public setTitle(newTitle : string) {
-        return this.title = newTitle;
+         this.title = newTitle;
     } 
     public setNPages(newNPages : number) {
-        return this.nPages = newNPages;
+         this.nPages = newNPages;
     }
     public setISBN(newISBN : string){
-        return  this.isbn = newISBN;
+          this.isbn = newISBN;
     }
     public setAuthor(newAuthor : string){
-        return this.author = newAuthor;
+         this.author = newAuthor;
     }
     public setEditorial(newEditorial : string) {
-        return this.editorial = newEditorial;
+         this.editorial = newEditorial;
     }
     public printAll(){
-        return `title : ${this.title},${"\n"} Number of pages : ${this.nPages},${"\n"}ISBN : ${this.isbn},${"\n"}Author : ${this.author},${"\n"}Editorial : ${this.editorial}${"\n"}`
+        console.log(`title : ${this.title},${"\n"} Number of pages : ${this.nPages},${"\n"}ISBN : ${this.isbn},${"\n"}Author : ${this.author},${"\n"}Editorial : ${this.editorial}${"\n"}`)
     }
 }
 

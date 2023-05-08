@@ -19,11 +19,11 @@ export class Library {
     public getManager() : string{
         return this.manager
     }
-    public setAddress(newAddress : string) : string{
-        return this.address = newAddress;
+    public setAddress(newAddress : string){
+         this.address = newAddress;
     }
-    public setManager(newManager : string) : string{
-        return this.address = newManager
+    public setManager(newManager : string){
+         this.address = newManager
     }
     public toString() : string{
         let i : number = 0

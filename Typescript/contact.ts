@@ -7,7 +7,7 @@ export class Contacts{
             this.people = []
     }
     printCalendar(){
-        return this.people
+        console.log(this.people)
     }
 
 
