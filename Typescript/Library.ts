@@ -1,12 +1,12 @@
 import { Book } from "./Book";
 
 export class Library {
-    private books : Array<Book>;
+    private books : Book[];
     private address : string;
     private manager : string;
    
     
-    constructor(books : Array<Book> , address : string , manager : string){
+    constructor(books : Book[] , address : string , manager : string){
         this.books = books
         this.address = address
         this.manager = manager

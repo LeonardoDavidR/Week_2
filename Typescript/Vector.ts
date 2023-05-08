@@ -1,5 +1,5 @@
 export class Vector {
-    private elements : Array<number>
+    private elements : number[];
     public n : number;
     public k : number 
     
