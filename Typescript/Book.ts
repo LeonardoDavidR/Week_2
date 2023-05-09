@@ -43,8 +43,8 @@ export class Book{
     public setEditorial(newEditorial : string) : void {
          this.editorial = newEditorial;
     }
-    public printAll(){
-        console.log(`title : ${this.title},${"\n"} Number of pages : ${this.nPages},${"\n"}ISBN : ${this.isbn},${"\n"}Author : ${this.author},${"\n"}Editorial : ${this.editorial}${"\n"}`)
+    public toString(): string{
+        return`title : ${this.title},${"\n"} Number of pages : ${this.nPages},${"\n"}ISBN : ${this.isbn},${"\n"}Author : ${this.author},${"\n"}Editorial : ${this.editorial}${"\n"}`
     }
 }
 

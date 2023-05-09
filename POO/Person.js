@@ -16,10 +16,10 @@ class Person{
     
     }
     printAll(){
-        return  `weigth - ${this.weigth},${"\n"}heigth  : ${this.heigth},${"\n"}yearOfBirth - ${this.yearOfBirth},${"\n"}hobbies : ${this.hobbies}`
+        console.log( `weigth - ${this.weigth},${"\n"}heigth  : ${this.heigth},${"\n"}yearOfBirth - ${this.yearOfBirth},${"\n"}hobbies : ${this.hobbies}`)
     }
     printHobbies(){
-        return this.hobbies
+        console.log( this.hobbies)
     }
 }
 

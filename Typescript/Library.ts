@@ -29,7 +29,7 @@ export class Library {
         let i : number = 0
         let x : string = ""
         for(i = 0; i < this.books.length; i++){
-            x = x+"Book"+i + ": \n" + this.books[i].printAll()
+            x = x+"Book"+i + ": \n" + this.books[i].toString()
         }
         return x 
     }
